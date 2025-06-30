@@ -15,7 +15,7 @@ import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContexts";
 import { useGeolocation } from "../hooks/useGeolocation";
 import Button from "./Button";
-import { useUrlPosition } from "../hooks/useURLPosition";
+import { useUrlPosition } from "../hooks/useUrlPosition";
 function Map() {
   const navigate = useNavigate();
   const { cities, currentCity, flagemojiToPNG } = useCities();
